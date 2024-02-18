@@ -1,0 +1,48 @@
+:root{
+    --text-primary: #0077B6;
+    --bg-primary: #ffffff;
+    --bg-secondary: #16253a;
+    --text-secondary: #ffffff;
+    --transition-speed: 300ms;
+}
+
+.settings-block {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+  }
+
+  .settings-block h3 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .settings-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .settings-block li {
+    margin-bottom: 5px;
+  }
+
+  .settings-block label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .settings-block input[type="range"] {
+    width: 100%;
+  }
+
+  .settings-block input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
