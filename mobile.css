@@ -1,0 +1,58 @@
+@media (max-width: 1200px){
+
+    .container{
+        width: 800px;
+        height: 800px;
+    }
+
+    .block{
+        width: 350px;
+        height: 460px;
+    }
+
+    .block__title{
+        font-size: 30px;
+    }
+
+    .block__item{
+        font-size: 20px;
+    }
+
+    .content{
+        justify-content: none;
+        padding-right: 100px;
+    }
+
+    .container{
+        margin-top: 40px;
+        height: 890px;
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .container{
+        margin-top: 20px;
+        margin-right: 40px;
+        height: 910px;
+    }
+    
+}
+
+@media (max-width: 768px){
+
+
+    
+}
+
+@media (max-width: 468px){
+
+
+    
+}
